@@ -59,12 +59,9 @@
     <footer>
         <p style="text-align: center; padding: 10px; background-color: #35424a; color: #ffffff; margin-top: 20px;">
             &copy; 2025 Mi Página Web. Todos los derechos reservados.
-
-
-            ![](https://komarev.com/ghpvc/?username=webbb2025)
-
+      
             <a href="https://github.com/antonkomarev/github-profile-views-counter">
-           <img src="https://komarev.com/ghpvc/?username=antonkomarev&style=for-the-badge">
+           <img src="https://komarev.com/ghpvc/?username=webbb2025&style=for-the-badge">
 
             
         </p>
