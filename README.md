@@ -59,6 +59,11 @@
     <footer>
         <p style="text-align: center; padding: 10px; background-color: #35424a; color: #ffffff; margin-top: 20px;">
             &copy; 2025 Mi Página Web. Todos los derechos reservados.
+
+
+            ![](https://komarev.com/ghpvc/?username=webbb2025)
+
+            
         </p>
     </footer>
 </body>
