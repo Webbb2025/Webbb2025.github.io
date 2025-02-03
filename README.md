@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <a href="https://github.com/antonkomarev/github-profile-views-counter">                
+            <img src="https://komarev.com/ghpvc/?username=Webbb2025&color=blue" alt="Contador de visitas">
     <title>Mejores Drones 2025</title>
     <style>
         body {
@@ -60,8 +62,7 @@
         <p style="text-align: center; padding: 10px; background-color: #35424a; color: #ffffff; margin-top: 20px;">
             &copy; 2025 Mi Página Web. Todos los derechos reservados.
       
-            <a href="https://github.com/antonkomarev/github-profile-views-counter">
-           <img src="https://komarev.com/ghpvc/?username=webbb2025&style=for-the-badge">
+          
 
             
         </p>
