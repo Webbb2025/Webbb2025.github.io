@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con dos columnas y cinco filas</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+        .row {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Encabezado de la página</h1>
+    </header>
+    
+    <div class="container">
+        <div class="column">
+            <div class="row">Columna 1, Fila 1</div>
+            <div class="row">Columna 1, Fila 2</div>
+            <div class="row">Columna 1, Fila 3</div>
+            <div class="row">Columna 1, Fila 4</div>
+            <div class="row">Columna 1, Fila 5</div>
+        </div>
+        <div class="column">
+            <div class="row">Columna 2, Fila 1</div>
+            <div class="row">Columna 2, Fila 2</div>
+            <div class="row">Columna 2, Fila 3</div>
+            <div class="row">Columna 2, Fila 4</div>
+            <div class="row">Columna 2, Fila 5</div>
+        </div>
+    </div>
+</body>
+</html>
 
