@@ -57,8 +57,13 @@ function moviles() {
     
     </header>
 
+
+ 
+
+
+    
     <div style="position: fixed; left: 20px; top: 50%;">
-          <button onclick="moviles()" style="padding: 10px 20px; background-color: #c87664; color: white; border: none; border-radius: 5px; cursor: pointer;  " >
+          <button id="moviles" style="padding: 10px 20px; background-color: #c87664; color: white; border: none; border-radius: 5px; cursor: pointer;  " >
             Tablets
           </button>
    </div>
@@ -154,5 +159,12 @@ function moviles() {
             
         </p>
     </footer>
+
+<script>
+  document.getElementById('moviles').addEventListener('click', function() {
+    alert('¡Hola! Este es un mensaje de alerta.');
+  });
+</script>
+    
 </body>
 </html>
