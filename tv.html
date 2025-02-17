@@ -59,13 +59,13 @@
 
 
     <div style="position: fixed; left: 20px; top: 45%;">
-          <button style="padding: 10px 20px; background-color: #c87664; color: white; border: none; border-radius: 5px; cursor: pointer;">
-            TVs
+          <button id="tablet"  style="padding: 10px 20px; background-color: #c87664; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            Tablets
           </button>
    </div>
 
       <div style="position: fixed; left: 20px; top: 40%;">
-          <button style="padding: 10px 20px; background-color: #c87664; color: white; border: none; border-radius: 5px; cursor: pointer;">
+          <button id="movil" style="padding: 10px 20px; background-color: #c87664; color: white; border: none; border-radius: 5px; cursor: pointer;">
             Moviles
           </button>
    </div>
@@ -134,6 +134,15 @@
   document.getElementById('drone').addEventListener('click', function() {
     window.location.href = 'https://webbb2025.github.io';
   });
+
+document.getElementById('tablet').addEventListener('click', function() {
+    window.location.href = 'https://webbb2025.github.io/tablet.html';
+  });
+
+        document.getElementById('movil').addEventListener('click', function() {
+    window.location.href = 'https://webbb2025.github.io/movil.html';
+  });
+        
 </script>
 </body>
 </html>
