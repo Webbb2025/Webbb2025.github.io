@@ -3,139 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Móviles en Oferta</title>
+    <h1><title>Moviles</title></h1>
     <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
         }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
+        header {
+           -- background-color: #35424a;
+         background-color: #c87664;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
         }
-        th {
-            background-color: #f2f2f2;
+        header h1 {
+            margin: 0;
+            text-align: center;
+            padding-bottom: 20px;
         }
-        img {
-            max-width: 100px;
-            height: auto;
-            display: block;
-            margin: 0 auto;
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
         }
-        .precio {
-            font-weight: bold;
-            color: #4CAF50;
+        .main-content {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
         }
     </style>
+
+
+
+   
+    
 </head>
 <body>
+     <header background-color: #FF0000>
+       <h1>Mejores móviles Calidad/Precio 2025</h1>
+    
+    </header>   
+         <div style="position: fixed; left: 20px; top: 50%;">
+          <button id="drone"  style="padding: 10px 20px; background-color: #c87664; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            Drones
+          </button>
+   </div>
+<div class="container">
 
-    <h2>Móviles en Relación Calidad Precio</h2>
+    <div style="position: fixed; left: 20px; top: 45%;">
+          <button style="padding: 10px 20px; background-color: #c87664; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            TVs
+          </button>
+   </div>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Marca</th>
-                <th>Modelo</th>
-                <th>Foto</th>
-                <th>Lo Positivo</th>
-                <th>Lo Negativo</th>
-                <th>Precio</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>realme</td>
-                <td>realme GT 2 Pro</td>
-                <td><img src="https://m.media-amazon.com/images/I/61sKk5z-5rL._AC_SL500_.jpg" alt="realme GT 2 Pro"></td>
-                <td>Su rendimiento es espectacular</td>
-                <td>El audio es uno de sus puntos flacos</td>
-                <td class="precio">849,90 €</td>
-            </tr>
-            <tr>
-                <td>Nothing</td>
-                <td>Nothing Phone (2)</td>
-                <td><img src="https://m.media-amazon.com/images/I/71hsuRTQ29L._AC_SL500_.jpg" alt="Nothing Phone (2)"></td>
-                <td>Tanto el diseño como su software y hardware son sus puntos fuertes</td>
-                <td>Por su rango de precio, encontramos móviles con mejores cámaras</td>
-                <td class="precio">689 €</td>
-            </tr>
-            <tr>
-                <td>Google</td>
-                <td>Google Pixel 7a</td>
-                <td><img src="https://m.media-amazon.com/images/I/615tIZYLMEL._AC_SL500_.jpg" alt="Google Pixel 7a"></td>
-                <td>La cámara principal aporta mucho detalle</td>
-                <td>Algo pesado y grande para tener una pantalla de 6,1 pulgadas</td>
-                <td class="precio">372,60 €</td>
-            </tr>
-            <tr>
-                <td>realme</td>
-                <td>realme GT2 5G</td>
-                <td><img src="https://m.media-amazon.com/images/I/517EpsKbTEL._AC_SL500_.jpg" alt="realme GT2 5G"></td>
-                <td>Muy buena pantalla</td>
-                <td>Pese a ser un móvil de gama alta, incluye bloatware</td>
-                <td class="precio">339 €</td>
-            </tr>
-            <tr>
-                <td>Xiaomi</td>
-                <td>POCO F5 Pro</td>
-                <td><img src="https://m.media-amazon.com/images/I/51vLbLHP46L._AC_SL500_.jpg" alt="POCO F5 Pro"></td>
-                <td>La duración de la batería es brutal</td>
-                <td>Se calienta bastante</td>
-                <td class="precio">629,99 €</td>
-            </tr>
-            <tr>
-                <td>Samsung</td>
-                <td>Samsung Galaxy A54</td>
-                <td><img src="https://m.media-amazon.com/images/I/61fRWSXPMAL._AC_SL500_.jpg" alt="Samsung Galaxy A54"></td>
-                <td>La pantalla es excelente</td>
-                <td>Los marcos podrían ser menores</td>
-                <td class="precio">337,64 €</td>
-            </tr>
-            <tr>
-                <td>Honor</td>
-                <td>Honor Magic 6 Lite</td>
-                <td><img src="https://m.media-amazon.com/images/I/717nSpYXysL._AC_SL500_.jpg" alt="Honor Magic 6 Lite"></td>
-                <td>Autonomía excelente</td>
-                <td>No cuenta con doble altavoz</td>
-                <td class="precio">244 €</td>
-            </tr>
-            <tr>
-                <td>Xiaomi</td>
-                <td>Xiaomi Redmi Note 12</td>
-                <td><img src="https://m.media-amazon.com/images/I/81jVj9y-9QL._AC_SL1500_.jpg" alt="Xiaomi Redmi Note 12"></td>
-                <td>Gran autonomía y buen rendimiento</td>
-                <td>Ultra gran angular de menos calidad</td>
-                <td class="precio">122,54 €</td>
-            </tr>
-            <tr>
-                <td>OnePlus</td>
-                <td>OnePlus Nord 4</td>
-                 <td><img src="https://www.powerplanetonline.com/cdnassets/oneplus_nord_ce4_lite_5g_azul_01_l.jpg" alt="OnePlus Nord 4"></td>
-                <td>Un diseño con mucha personalidad y de categoría</td>
-                <td>La lente teleobjetivo no está a la altura de la principal</td>
-                <td class="precio">485 €</td>
-            </tr>
-            <tr>
-                <td>CMF</td>
-                <td>CMF Phone 1</td>
-                <td><img src="https://www.giztop.com/media/catalog/product/cache/c13b48168ca616dd99916249e52975d3/c/m/cmf_by_nothing_phone_1.jpg" alt="CMF Phone 1"></td>
-                <td>El diseño, guste o no, es muy original</td>
-                <td>Falta de altavoces estéreo</td>
-                <td class="precio">239 €</td>
-            </tr>
-            <tr>
-                <td>realme</td>
-                <td>Realme 10</td>
-                <td><img src="https://m.media-amazon.com/images/I/41-DYS9VvBL.jpg" alt="Realme 10"></td>
-                <td>La autonomía es impresionante</td>
-                <td>Procesador algo ajustado</td>
-                <td class="precio">152,15 €</td>
-            </tr>
-        </tbody>
-    </table>
+      <div style="position: fixed; left: 20px; top: 40%;">
+          <button id ="tablet" style="padding: 10px 20px; background-color: #c87664; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            Tablets
+          </button>
+   </div>
 
+    <div class="product">
+        <div class="product-image">
+         
+            <p><img src="https://raw.githubusercontent.com/Webbb2025/Webbb2025.github.io/main/Movil1.JPG"   width="500" height="500" /></p> 
+        </div>
+        <div class="product-info">
+            <h2>SMARTPHONE POCOPHONE X5 PRO 5G NFC 667 FHD+ 120HZ 8GB/256GB BLACK</h2>
+            <p>Características:</p>
+            <ul>
+                <li>Pantalla FHD+ de 120Hz</li>
+                <li>8GB de RAM</li>
+                <li>256GB de almacenamiento</li>
+                <li>Conectividad 5G y NFC</li>
+            </ul>
+            <a href="https://amzn.to/41dWVlM" target="_blank" rel="nofollow noopener noreferrer">Comprar ahora</a>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product-image">
+             <p><img src="https://raw.githubusercontent.com/Webbb2025/Webbb2025.github.io/main/Movil2.JPG"   width="500" height="500" /></p> 
+        </div>
+        <div class="product-info">
+            <h2>Xiaomi Poco X5 Pro 5G, Dual SIM, 128 GB + 6 GB</h2>
+            <p>Características:</p>
+            <ul>
+                <li>Dual SIM</li>
+                <li>128GB de almacenamiento</li>
+                <li>6GB de RAM</li>
+                <li>GSM desbloqueado de fábrica</li>
+                <li>Versión internacional</li>
+                <li>Color: Negro</li>
+            </ul>
+            <a href="https://amzn.to/41i8qrp" target="_blank" rel="nofollow noopener noreferrer">Comprar ahora</a>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product-image">
+             <p><img src="https://raw.githubusercontent.com/Webbb2025/Webbb2025.github.io/main/Movil3.JPG"   width="500" height="500" /></p> 
+        </div>
+        <div class="product-info">
+            <h2>Samsung Galaxy S24 Ultra y Cargador 45W</h2>
+            <p>Características:</p>
+            <ul>
+                <li>Teléfono móvil con IA</li>
+                <li>12GB de RAM</li>
+                <li>256GB de almacenamiento</li>
+                <li>Cámara de 200MP</li>
+                <li>S Pen incluido</li>
+                <li>Batería de larga duración</li>
+                <li>Color: Gris Titanium</li>
+                <li>Versión Española</li>
+            </ul>
+            <a href="https://amzn.to/4jZLWDN" target="_blank" rel="nofollow noopener noreferrer">Comprar ahora</a>
+        </div>
+    </div>
+
+</div>
+
+    <script>
+  document.getElementById('tablet').addEventListener('click', function() {
+    window.location.href = 'https://webbb2025.github.io/tablet.html';
+  });
+
+
+document.getElementById('drone').addEventListener('click', function() {
+    window.location.href = 'https://webbb2025.github.io/index.html';
+  });
+
+
+
+   
+</script>
 </body>
 </html>
