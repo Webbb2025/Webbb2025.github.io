@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Móviles en Oferta</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            max-width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .precio {
+            font-weight: bold;
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Móviles en Relación Calidad Precio</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Foto</th>
+                <th>Lo Positivo</th>
+                <th>Lo Negativo</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>realme</td>
+                <td>realme GT 2 Pro</td>
+                <td><img src="https://m.media-amazon.com/images/I/61sKk5z-5rL._AC_SL500_.jpg" alt="realme GT 2 Pro"></td>
+                <td>Su rendimiento es espectacular</td>
+                <td>El audio es uno de sus puntos flacos</td>
+                <td class="precio">849,90 €</td>
+            </tr>
+            <tr>
+                <td>Nothing</td>
+                <td>Nothing Phone (2)</td>
+                <td><img src="https://m.media-amazon.com/images/I/71hsuRTQ29L._AC_SL500_.jpg" alt="Nothing Phone (2)"></td>
+                <td>Tanto el diseño como su software y hardware son sus puntos fuertes</td>
+                <td>Por su rango de precio, encontramos móviles con mejores cámaras</td>
+                <td class="precio">689 €</td>
+            </tr>
+            <tr>
+                <td>Google</td>
+                <td>Google Pixel 7a</td>
+                <td><img src="https://m.media-amazon.com/images/I/615tIZYLMEL._AC_SL500_.jpg" alt="Google Pixel 7a"></td>
+                <td>La cámara principal aporta mucho detalle</td>
+                <td>Algo pesado y grande para tener una pantalla de 6,1 pulgadas</td>
+                <td class="precio">372,60 €</td>
+            </tr>
+            <tr>
+                <td>realme</td>
+                <td>realme GT2 5G</td>
+                <td><img src="https://m.media-amazon.com/images/I/517EpsKbTEL._AC_SL500_.jpg" alt="realme GT2 5G"></td>
+                <td>Muy buena pantalla</td>
+                <td>Pese a ser un móvil de gama alta, incluye bloatware</td>
+                <td class="precio">339 €</td>
+            </tr>
+            <tr>
+                <td>Xiaomi</td>
+                <td>POCO F5 Pro</td>
+                <td><img src="https://m.media-amazon.com/images/I/51vLbLHP46L._AC_SL500_.jpg" alt="POCO F5 Pro"></td>
+                <td>La duración de la batería es brutal</td>
+                <td>Se calienta bastante</td>
+                <td class="precio">629,99 €</td>
+            </tr>
+            <tr>
+                <td>Samsung</td>
+                <td>Samsung Galaxy A54</td>
+                <td><img src="https://m.media-amazon.com/images/I/61fRWSXPMAL._AC_SL500_.jpg" alt="Samsung Galaxy A54"></td>
+                <td>La pantalla es excelente</td>
+                <td>Los marcos podrían ser menores</td>
+                <td class="precio">337,64 €</td>
+            </tr>
+            <tr>
+                <td>Honor</td>
+                <td>Honor Magic 6 Lite</td>
+                <td><img src="https://m.media-amazon.com/images/I/717nSpYXysL._AC_SL500_.jpg" alt="Honor Magic 6 Lite"></td>
+                <td>Autonomía excelente</td>
+                <td>No cuenta con doble altavoz</td>
+                <td class="precio">244 €</td>
+            </tr>
+            <tr>
+                <td>Xiaomi</td>
+                <td>Xiaomi Redmi Note 12</td>
+                <td><img src="https://m.media-amazon.com/images/I/81jVj9y-9QL._AC_SL1500_.jpg" alt="Xiaomi Redmi Note 12"></td>
+                <td>Gran autonomía y buen rendimiento</td>
+                <td>Ultra gran angular de menos calidad</td>
+                <td class="precio">122,54 €</td>
+            </tr>
+            <tr>
+                <td>OnePlus</td>
+                <td>OnePlus Nord 4</td>
+                 <td><img src="https://www.powerplanetonline.com/cdnassets/oneplus_nord_ce4_lite_5g_azul_01_l.jpg" alt="OnePlus Nord 4"></td>
+                <td>Un diseño con mucha personalidad y de categoría</td>
+                <td>La lente teleobjetivo no está a la altura de la principal</td>
+                <td class="precio">485 €</td>
+            </tr>
+            <tr>
+                <td>CMF</td>
+                <td>CMF Phone 1</td>
+                <td><img src="https://www.giztop.com/media/catalog/product/cache/c13b48168ca616dd99916249e52975d3/c/m/cmf_by_nothing_phone_1.jpg" alt="CMF Phone 1"></td>
+                <td>El diseño, guste o no, es muy original</td>
+                <td>Falta de altavoces estéreo</td>
+                <td class="precio">239 €</td>
+            </tr>
+            <tr>
+                <td>realme</td>
+                <td>Realme 10</td>
+                <td><img src="https://m.media-amazon.com/images/I/41-DYS9VvBL.jpg" alt="Realme 10"></td>
+                <td>La autonomía es impresionante</td>
+                <td>Procesador algo ajustado</td>
+                <td class="precio">152,15 €</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
